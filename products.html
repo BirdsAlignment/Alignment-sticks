@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Birds Alignment Sticks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="product" data-id="1">
+            <h2>Classic Alignment Stick</h2>
+            <p>Handcrafted from premium wood, perfect for any golfer looking to improve alignment and accuracy. Available in multiple colors.</p>
+            <label for="color-choice1">Choose color:</label>
+            <select id="color-choice1" name="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2">
+            <h2>Deluxe Alignment Stick</h2>
+            <p>Features a grip end for better handling and a laser-engraved logo. Customize with your name or slogan.</p>
+            <label for="text-engraving2">Engrave your text:</label>
+            <input type="text" id="text-engraving2" placeholder="Enter text here">
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Birds Alignment Sticks. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
